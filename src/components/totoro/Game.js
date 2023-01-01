@@ -77,7 +77,7 @@ const Frame =()=>{
         <>
         <p>{life}❤️</p>
          <div className="frame">
-        <img className="bicho" style={{paddingBottom: jumping? 30: 0 + 'em'}} src={jumping?"https://elizabethcf01.github.io/game/assets/stop.png":"https://elizabethcf01.github.io/game/assets/img.gif"} alt="img"/>
+        <img className="bicho" style={{paddingBottom: jumping? 30: 0 + 'em'}} src={jumping?"https://elizabethcf01.github.io/game/assets/stop.PNG":"https://elizabethcf01.github.io/game/assets/img.gif"} alt="img"/>
         <p className="ground">{ground}</p>
         <p className="ground1">{ground1}</p>
         <p className="ground2">{ground2}</p>
