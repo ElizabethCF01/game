@@ -1,19 +1,16 @@
 {
   "files": {
     "main.css": "/game/static/css/main.841bd097.css",
-    "main.js": "/game/static/js/main.e949ca20.js",
+    "main.js": "/game/static/js/main.28b1abfc.js",
     "static/js/787.b2fea140.chunk.js": "/game/static/js/787.b2fea140.chunk.js",
-    "static/media/img.gif": "/game/static/media/img.3f21cf5b5a6f4e97ecc9.gif",
-    "static/media/stop.PNG": "/game/static/media/stop.fdee04ec45de7d6cd620.PNG",
-    "static/media/totoro.png": "/game/static/media/totoro.3a310f387f2e41696e9c.png",
     "static/media/logo.svg": "/game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/game/index.html",
     "main.841bd097.css.map": "/game/static/css/main.841bd097.css.map",
-    "main.e949ca20.js.map": "/game/static/js/main.e949ca20.js.map",
+    "main.28b1abfc.js.map": "/game/static/js/main.28b1abfc.js.map",
     "787.b2fea140.chunk.js.map": "/game/static/js/787.b2fea140.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.841bd097.css",
-    "static/js/main.e949ca20.js"
+    "static/js/main.28b1abfc.js"
   ]
 }
