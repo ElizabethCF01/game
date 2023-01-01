@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.FancyBorder {
+  padding: 10px 10px;
+  border: 4px solid;
+  border-radius: 10px;
+}
+.FancyBorder-white {
+  border-color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+button {
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  padding: 6px 14px;
+  background-color: #282c34;
+  color: cornsilk;
+  margin-top: 2rem;
+  position: absolute;
+  bottom: 1%;
+}
+.frame {
+  background-color: rgb(255 255 255);
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame .bicho {
+  max-height: 30vh;
+  position: absolute;
+  bottom: 11%;
+  transition: all 0.5s ease-in-out;
+  right: 40%;
+}
+.img_start{
+  max-height: 20vh;
+  margin-top: -2rem;
+}
+.frame .ground {
+  color: #282c34;
+  margin-top: -45px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 8%;
+  right: 10%;
+}
+.frame .ground1 {
+  color: #282c34;
+  margin-top: -40px;
+  position: absolute;
+  bottom: 4%;
+  right: 10%;
+}
+.frame .ground2 {
+  color: #282c34;
+  margin-top: -43px;
+  position: absolute;
+  bottom: 6%;
+  right: 10%;
+}
+.lose {
+  color: #282c34;
+}
