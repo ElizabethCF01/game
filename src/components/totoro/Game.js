@@ -1,8 +1,4 @@
 import React, {useState, useEffect} from "react";
-import totorogif from './assets/img.gif'
-import totorostatic from './assets/stop.PNG'
-import totoro from './assets/totoro.png'
-
 
 const Frame =()=>{
     const handleWalk = () =>{
@@ -81,7 +77,7 @@ const Frame =()=>{
         <>
         <p>{life}❤️</p>
          <div className="frame">
-        <img className="bicho" style={{paddingBottom: jumping? 30: 0 + 'em'}} src={jumping? totorostatic : totorogif} alt="img"/>
+        <img className="bicho" style={{paddingBottom: jumping? 30: 0 + 'em'}} src={jumping?"https://elizabethcf01.github.io/game/assets/stop.png":"https://elizabethcf01.github.io/game/assets/img.gif"} alt="img"/>
         <p className="ground">{ground}</p>
         <p className="ground1">{ground1}</p>
         <p className="ground2">{ground2}</p>
@@ -92,7 +88,7 @@ const Frame =()=>{
         {(life === 0 && stop) &&
         <div className="frame">
         <h1 className="lose">{text}</h1>
-        <img  className="img_start" src={totoro} alt="img"/>
+        <img  className="img_start" src="https://elizabethcf01.github.io/game/assets/totoro.png" alt="img"/>
         <button onClick={handleStart}>Start</button>
         </div>
         }
