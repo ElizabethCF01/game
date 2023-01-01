@@ -62,13 +62,14 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all .5s ease;
 }
 .frame .bicho {
-  max-height: 30vh;
+  max-height: 16vh;
   position: absolute;
-  bottom: 11%;
+  bottom: 15%;
   transition: all 0.5s ease-in-out;
-  right: 40%;
+  right: 44%;
 }
 .img_start{
   max-height: 20vh;
